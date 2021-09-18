@@ -56,12 +56,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/dashboard/1/Dashboard-Ecommerce">
+                    <a href="/dashboard/Dashboard-Ecommerce">
                         <i class="simple-icon-basket-loaded"></i> <span class="d-inline-block">Ecommerce</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/dashboard/1/1/Dashboard-Content">
+                    <a href="/dashboard/Dashboard-Content">
                         <i class="simple-icon-doc"></i> <span class="d-inline-block">Content</span>
                     </a>
                 </li>
@@ -232,22 +232,22 @@
             </ul>
             <ul class="list-unstyled" data-link="applications">
                 <li>
-                    <a href="Apps.MediaLibrary.html">
+                    <a href="/dashboard/Apps-MediaLibrary">
                         <i class="simple-icon-picture"></i> <span class="d-inline-block">Library</span>
                     </a>
                 </li>
                 <li>
-                    <a href="Apps.Todo.List.html">
+                    <a href="/dashboard/Apps-Todo-List">
                         <i class="simple-icon-check"></i> <span class="d-inline-block">Todo</span>
                     </a>
                 </li>
                 <li>
-                    <a href="Apps.Survey.List.html">
+                    <a href="/dashboard/Apps-Survey-List">
                         <i class="simple-icon-calculator"></i> <span class="d-inline-block">Survey</span>
                     </a>
                 </li>
                 <li>
-                    <a href="Apps.Chat.html">
+                    <a href="/dashboard/Apps-Chat">
                         <i class="simple-icon-bubbles"></i> <span class="d-inline-block">Chat</span>
                     </a>
                 </li>

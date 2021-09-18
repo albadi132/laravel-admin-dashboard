@@ -27,8 +27,8 @@
     <link rel="stylesheet" href="{{ asset('css/dashboard/vendor/bootstrap-datepicker3.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/dashboard/vendor/component-custom-switch.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/dashboard/main.css') }}" />
-</head>
 
+</head>
 <body id="app-container" class="menu-default show-spinner">
 
 @include('dashboard.layouts.header')
@@ -191,8 +191,6 @@ $(".direction-radio[data-direction='" + direction + "']").attr("checked", true);
 $(".radius-radio[data-radius='" + radius + "']").attr("checked", true);
 $("#switchDark").attr("checked", theme.indexOf("dark") > 0 ? true : false);
 
-
-console.log("{{asset('css/dashboard/')}}" + "/" + theme)
 loadStyle("{{asset('css/dashboard/')}}" + "/" + theme, onStyleComplete);
 
 function onStyleComplete() {

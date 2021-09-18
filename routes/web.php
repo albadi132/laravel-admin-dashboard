@@ -25,12 +25,24 @@ Route::get('/dashboard/Dashboard-Analytics', function () {
     return view('dashboard.Dashboard-Analytics');
 });
 
-Route::get('/dashboard/1/Dashboard-Ecommerce', function () {
+Route::get('/dashboard/Dashboard-Ecommerce', function () {
     return view('dashboard.Dashboard-Ecommerce');
 });
 
-Route::get('/dashboard/1/1/Dashboard-Content', function () {
+Route::get('/dashboard/Dashboard-Content', function () {
     return view('dashboard.Dashboard-Content');
+});
+Route::get('/dashboard/Apps-MediaLibrary', function () {
+    return view('dashboard.Apps-MediaLibrary');
+});
+Route::get('/dashboard/Apps-Todo-List', function () {
+    return view('dashboard.Apps-Todo-List');
+});
+Route::get('/dashboard/Apps-Survey-List', function () {
+    return view('dashboard.Apps-Survey-List');
+});
+Route::get('/dashboard/Apps-Chat', function () {
+    return view('dashboard.Apps-Chat');
 });
 
 Route::get('/dashboard/blank-page', function () {
